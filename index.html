@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste da caldeira</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="vazao" class="variaveis">
+        <p class="title">Vazão de vapor</p>
+        <div>1200</div>
+        <p class="unidade">kg/h</p>
+    </div>
+    <div id="pressao" class="variaveis">
+        <p class="title">Pressão da caldeira</p>
+        <div>8</div>
+        <p class="unidade">bar</p>
+    </div>
+    <div id="nivelagua" class="variaveis">
+        <p class="title-big">nivel da agua<br>capacidade maxima: 4000 litros</p>
+        <div>80</div>
+        <p class="unidade">%</p>
+    </div>
+    <div id="combustivel" class="variaveis">
+        <p class="title">Qt. de combustivel</p>
+        <div>1200</div>
+        <p class="unidade">kg</p>
+    </div>
+    <div id="queima" class="variaveis">
+        <p class="title">Gasto de combustivel</p>
+        <div>400</div>
+        <p class="unidade">kg/h</p>
+    </div>
+    </div>
+    <div class="console consoleum">
+        <div class="button">
+            <div class="visor">Aumentar a vazão d'agua em:  1000kg/h</div>
+            <button id="maisvapor" class="console"></button>
+        </div>
+        <div class="button">
+            <div class="visor">Diminuir a vazõa d'agua em   :  1000kg/h</div>
+            <button id="menosvapor" class="console"></button>
+        </div>
+        <div class="button">
+            <div class="visor">Adicionar agua = 10%</div>
+            <button id="maisagua" class="console"></button>
+        </div>
+    </div>
+    <div class="console consoledois">
+        <div class="button">
+            <div class="visor">Adicionar combustivel em 100kg</div>
+            <button id="maiscombustivel" class="console"></button>
+        </div>
+        <div class="button">
+            <div class="visor">Retirar combustivel em 100kg</div>
+            <button id="menoscombustivel" class="console"></button>
+        </div>
+    </div>
+    <div class="consolemini minium">
+        <div class="visormini">Iniciar programa!</div>    
+        <button class="console" id="inicializar"></button>
+    </div>
+    <div class="consolemini minidois">
+        <div class="visormini">Parar programa!</div>    
+        <button class="console" id="parar"></button>
+    </div>
+    <div class="alerta">
+        <p class="titulo">A simulação falhou!</p>
+        <p class="explicacao">A caldeira explodiu por falta de água!</p>
+    </div>
+    <div class="alertacombustivel">
+        <p class="titulo">A simulação está pausada!</p>
+        <p class="explicacao">A caldeira está parada por falta de combustivel</p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

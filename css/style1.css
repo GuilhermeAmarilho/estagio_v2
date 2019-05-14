@@ -1,0 +1,28 @@
+*{margin: 0px;}
+div.box-fluid{
+    position: absolute;
+    margin-top: 15%;
+    width: 30%;
+}
+hr.color{
+    width: 15%;
+    height: 1px;
+    border: none;
+}
+hr.great{background: green;}
+hr.warning{background: orange;}
+hr.danger{background: red;}
+hr.black{background: black;}
+div.ponteiro{
+    width: 30%;
+}
+div.ponteirinho{
+    width: 50%;
+    height: 16vw;
+}
+div.ponteirinho hr{
+    height: 3px;
+    width: 70%;
+    background: black;
+    transform: rotate(180deg)
+}
